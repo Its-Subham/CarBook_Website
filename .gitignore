@@ -1,0 +1,38 @@
+# Ignore node_modules in both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+# Ignore .env files in both
+frontend/.env
+frontend/.env.*
+backend/.env
+backend/.env.*
+
+# Ignore log files
+frontend/*.log
+backend/*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build artifacts
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
+
+# Cache or coverage
+**/coverage/
+**/.next/
+**/.cache/
+**/tmp/
+**/logs/
+
+# Optional: if you upload files or use temp folders
+frontend/uploads/
+backend/uploads/
